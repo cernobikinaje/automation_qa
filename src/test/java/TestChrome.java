@@ -32,7 +32,7 @@ public class TestChrome {
         Assert.assertEquals(driver.getTitle(), "acodemy - Google Search");
     }
 
-    @Test
+    @Test(enabled = false)
     public void chromeTest2() {
         driver.get(GOOGLE_URL);
 
